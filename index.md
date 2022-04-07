@@ -14,3 +14,5 @@
 3. thing 3
 
 [Lab Report](https://almondhalo.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+
+[Lab Report Link 2](lab-report-1-week-2.html)
