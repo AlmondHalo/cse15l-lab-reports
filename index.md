@@ -13,4 +13,4 @@
 2. thing 2
 3. thing 3
 
-[Link to link] (https://almondhalo.github.io/cse15l-lab-reports/)
+[Link to link](https://almondhalo.github.io/cse15l-lab-reports/)
