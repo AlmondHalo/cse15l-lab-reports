@@ -11,19 +11,36 @@ In the case you haven't installed VSCode, you may do so using this link: [Downlo
 
 2. Open and allow the code to make the proper changes to your device
 
+![](Step_1.jpg)
 ### Step 2: *Remotely Connecting*
 
 To connect remotely to a host, run the specific commands listed below.
 
 1. Open PowerShell.
 
-2. Run the 'ssh' command followed by your 'user name' + '@' + 'host' (ieng6.ucsd.edu) 
+2. Run the 'ssh' command followed by your 'username' + '@' + 'host' (ieng6.ucsd.edu) 
 
-Ex : ssh 'cs15lsp22zz@ieng6.ucsd.edu'
+   Ex : ssh 'cs15lsp22zz@ieng6.ucsd.edu'
+
+### The following graphic should appear:
+
+![](Step_2.jpg)
 
 ### Step 3: *Trying Some Commands*
 
-1. 
+At this point, you'll be able to input commands into the terminal, the following are some you can try:
+
+1. ls: Prints out the list of files.
+
+2. cd: Change directory.
+
+3. cd ~: Reverts to home directory.
+
+4. ls '<'directory'>': Where the inputed directory is another group members username
+
+    Here is an example:
+
+![](Step_3.jpg)
 
 ### Step 4: *Moving Files with scp*
 
