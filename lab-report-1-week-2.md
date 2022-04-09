@@ -3,7 +3,7 @@
 
 ## How To Log Into ieng6
 
-### Step 1: *Installing VSCode*
+### **Step 1:** *Installing VSCode*
 
 In the case you haven't installed VSCode, you may do so using this link: [Download Visual Studio Code](https://code.visualstudio.com/)
 
@@ -12,7 +12,7 @@ In the case you haven't installed VSCode, you may do so using this link: [Downlo
 2. Open and allow the code to make the proper changes to your device
 
 ![](Step_1.jpg)
-### Step 2: *Remotely Connecting*
+### **Step 2:** *Remotely Connecting*
 
 To connect remotely to a host, run the specific commands listed below.
 
@@ -26,7 +26,7 @@ To connect remotely to a host, run the specific commands listed below.
 
 ![](Step_2.jpg)
 
-### Step 3: *Trying Some Commands*
+### **Step 3:** *Trying Some Commands*
 
 At this point, you'll be able to input commands into the terminal, the following are some you can try:
 
@@ -42,15 +42,15 @@ At this point, you'll be able to input commands into the terminal, the following
 
 ![](Step_3.jpg)
 
-### Step 4: *Moving Files with scp*
+### **Step 4:** *Moving Files with scp*
 
 1. 
 
-### Step 5: *Setting an SSH Key*
+### **Step 5:** *Setting an SSH Key*
 
 1. 
 
-### Step 6: *Optimizing Remote Running*
+### **Step 6:** *Optimizing Remote Running*
 
 1. 
 
