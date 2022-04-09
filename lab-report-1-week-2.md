@@ -44,10 +44,15 @@ At this point, you'll be able to input commands into the terminal, the following
 
 ### **Step 4:** *Moving Files with scp*
 
-1. 
+Now try using the specific command 'scp'. This will copy a given file to a given user in a host.
+
+1. From the client, enter in 'scp' followed by the 'username' + '@' + 'host'. Following the 'scp' command, this should be the same as in Step 2.
+
+![](Step_4.jpg)
 
 ### **Step 5:** *Setting an SSH Key*
 
+Forewarning, this might be the most conceptually difficult step.
 1. 
 
 ### **Step 6:** *Optimizing Remote Running*
