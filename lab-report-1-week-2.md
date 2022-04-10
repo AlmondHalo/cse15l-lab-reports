@@ -46,7 +46,7 @@ At this point, you'll be able to input commands into the terminal, the following
 
 Now try using the specific command 'scp'. This will copy a given file to a given user in a host.
 
-1. From the client, enter in 'scp' followed by the 'username' + '@' + 'host'. Following the 'scp' command, this should be the same as in Step 2.
+1. From the client, enter in 'scp' followed by the file to be copied followed by the 'username' + '@' + 'host'. Following the 'scp' command, this should be the same as in Step 2.
 
 ![](Step_4.jpg)
 
@@ -68,7 +68,15 @@ Forewarning, this might be the most conceptually difficult step.
 
 From here forward you should be able to log into the server without having to input your password.
 
+![](Step_5.jpg)
+
 ### **Step 6:** *Optimizing Remote Running*
 
-1. 
+To work the most efficiently, the programmer may use short-cuts to execute commands faster.
+
+1. Use a ';' to make a chain of consecutive commands.
+
+![](Step_6.jpg)
+
+2. Also note that using the up/down arrows are far quicker than retyping each individual command. Cycle through past commands more easily.
 
