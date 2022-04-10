@@ -78,5 +78,5 @@ To work the most efficiently, the programmer may use short-cuts to execute comma
 
 ![](Step_6.jpg)
 
-2. Also note that using the up/down arrows are far quicker than retyping each individual command. Cycle through past commands more easily.
+*Also note that using the up/down arrows are far quicker than retyping each individual command. Cycle through past commands more easily.*
 
