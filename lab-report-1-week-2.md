@@ -53,12 +53,22 @@ Now try using the specific command 'scp'. This will copy a given file to a given
 ### **Step 5:** *Setting an SSH Key*
 
 Forewarning, this might be the most conceptually difficult step.
-1. 
+
+1. Return to the home directory (use cd ~).
+
+2. Use the command 'ssh-keygen' (Standing for "key generation").
+
+3. Make sure to not input any Passphrase. Hit enter when prompted for input.
+
+    * This will create a private and public key. From here, use the public key (saved in the file 'id_rsa.pub')
+
+4. Now log back onto the server and use the command 'mkdir .ssh'
+
+5. Again, return to the directory and input 'scp /Users/'User Name'/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys'
+
+From here forward you should be able to log into the server without having to input your password.
 
 ### **Step 6:** *Optimizing Remote Running*
 
 1. 
-
-Image:
-![Test_Image](20210907_171519.jpg)
 
