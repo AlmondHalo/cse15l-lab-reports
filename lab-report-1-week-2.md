@@ -18,9 +18,9 @@ To connect remotely to a host, run the specific commands listed below.
 
 1. Open PowerShell.
 
-2. Run the 'ssh' command followed by your 'username' + '@' + 'host' (ieng6.ucsd.edu) 
+2. Run the ```ssh``` command followed by your 'username' + '@' + 'host' (ieng6.ucsd.edu) 
 
-   Ex : ssh 'cs15lsp22zz@ieng6.ucsd.edu'
+   Ex : ```ssh cs15lsp22zz@ieng6.ucsd.edu```
 
 ### The following graphic should appear:
 
@@ -34,9 +34,9 @@ At this point, you'll be able to input commands into the terminal, the following
 
 2. cd: Change directory.
 
-3. cd ~: Reverts to home directory.
+3. ```cd ~:``` Reverts to home directory.
 
-4. ls '<'directory'>': Where the inputed directory is another group members username
+4. ```ls``` '<'directory'>': Where the inputed directory is another group members username
 
     Here is an example:
 
@@ -48,23 +48,27 @@ Now try using the specific command 'scp'. This will copy a given file to a given
 
 1. From the client, enter in 'scp' followed by the file to be copied followed by the 'username' + '@' + 'host'. Following the 'scp' command, this should be the same as in Step 2.
 
+    Ex: ```scp FileName.java cs15lsp22zzz@ieng6.ucsd.edu```
+
 ![](Step_4.jpg)
 
 ### **Step 5:** *Setting an SSH Key*
 
 Forewarning, this might be the most conceptually difficult step.
 
-1. Return to the home directory (use cd ~).
+1. Return to the home directory (use ```cd ~```).
 
-2. Use the command 'ssh-keygen' (Standing for "key generation").
+2. Input the command ```ssh-keygen``` (Standing for "key generation").
 
 3. Make sure to not input any Passphrase. Hit enter when prompted for input.
 
     * This will create a private and public key. From here, use the public key (saved in the file 'id_rsa.pub')
 
-4. Now log back onto the server and use the command 'mkdir .ssh'
+4. Now log back onto the server and use the command ```mkdir .ssh```
 
-5. Again, return to the directory and input 'scp /Users/'User Name'/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys'
+5. Again, return to the directory and input:
+
+    ```scp /Users/'User Name'/.ssh/id_rsa.pub cs15lsp22zz@ieng6.ucsd.edu:~/.ssh/authorized_keys```
 
 From here forward you should be able to log into the server without having to input your password.
 
