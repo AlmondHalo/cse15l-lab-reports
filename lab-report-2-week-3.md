@@ -34,7 +34,7 @@ The second bug (changes shown on lines 29 - 32) is caused by the while loop whic
 ***Bug 2 fix:***
 ![](Bug_1.2.jpg)
 
-Fix discriptioniscription: This fix checks after the final end parenthesis to see if their is another possible link. If not and the characters which make up the syntax for the link aren't found then the while loop breaks, ending the program, and returning the array as is.
+Fix discription: This fix checks after the final end parenthesis to see if their is another possible link. If not and the characters which make up the syntax for the link aren't found then the while loop breaks, ending the program, and returning the array as is.
 
 ### **Bug 3**
 
@@ -46,4 +46,4 @@ The third bug (changes shown on lines 22 - 26) is a algorithmic error. Here the 
 ***Bug 3 fix:***
 ![](Bug_1.2.jpg)
 
-Fix description: Before the changes (lines 22 - 26), 
+Fix description: The changes made (lines 22 - 26) check to see whether the open-parenthesis follow directly after the close-bracket. This ignores instances where the hyperlink is not properly formated (i.e. the open-parenthesis are far after the close parenthesis).
