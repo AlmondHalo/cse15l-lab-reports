@@ -21,12 +21,15 @@ scp file using alias:
 After generating a key, the programmer is able to copy the key's contents to GitHub. Doing this should allow the programmer to push commits to their origin on GitHub.
 
 Key location on GitHub:
+
 ![](prt2.1.jpg)
 
 Key location on local device:
+
 ![](prt2.2.jpg)
 
 Git commands:
+
 ![](prt2.3.jpg)
 
 Last commit:
